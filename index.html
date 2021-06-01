@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="heb">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Test</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <!--HEADER START -->
+
+    <div class="wrap-max-width">
+      <header class="header">
+        <img class="header__logo" src="./img/logo.png" alt="">
+      </header>
+  
+      <!-----HEADER END------>
+  
+      <!-----CONTENT START------>
+  
+      <main>
+        <section class="preview">
+          <div class="preview__wrap-bg">
+            <div class="preview__wrap-text">
+              <h1 class="preview__title">מחשבון ניכוי מס</h1>
+              <p class="preview__sub-title">בדוק את אישור תיאום המס שקיבלת ממס הכנסה</p>
+            </div>
+          </div>
+        </section>
+        <div class="wrap-content">
+          <section class="description">
+            <p class="description__text-gray"><span class="description__text-gray_big"></span>שלבים קצרים <br> םירצק םיבלש ךשמה</p>
+            <p class="description__text-black">נתוני הכנסות לבדיקת תיאום המס</p>
+          </section>
+          <section class="tabs-wrap">
+            <ul class="tabs">
+              <li class="tabs__btn">
+                <span>מעסיק 1</span> <br>
+                <span>ראשי</span>
+              </li>
+              <li class="tabs__btn">
+                <span>2</span> <br>
+                <span>משני</span>
+              </li>
+              <li class="tabs__btn">
+                <span>3</span> <br>
+                <span>משני</span>
+              </li>
+              <li class="tabs__btn">
+                <span>4</span> <br>
+                <span>משני</span>
+              </li>
+              <li class="tabs__btn">
+                <span>5</span> <br>
+                <span>משני</span>
+              </li>
+            </ul>
+            <div class="tabs__content">
+              <div class="rotate-wrap">
+                <div class="rotate">
+                  <div class="tabs__item">
+                    <img class="tabs__img" src="./img/icons/icon-hand.png" alt="">
+                    <p class="tabs__text">סוג הכנסה משכורת/ גימלה</p>
+                  </div>
+                  <div class="tabs__plate">
+                    <label for="">
+                      <input type="checkbox" name="" id="">
+                      <span>תרוכשמ</span>
+                    </label>
+                    <label for="">
+                      <input type="checkbox" name="" id="">
+                      <span>הלמג</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="tabs__label">01</div>
+              </div>
+              <div class="rotate-wrap">
+                <div class="rotate">
+                  <div class="tabs__item">
+                    <img class="tabs__img" src="./img/icons/icon-ring.png" alt="">
+                    <p class="tabs__text">ברוטו ממוצע לצורך מס לחודש </p>
+                  </div>
+                  <div class="tabs__plate">
+                    <p class="tabs__plate-text"> רכש ינותנ סנכהשדוחב עצוממ וטורב</p>
+                    <div class="tabs__plate-wrap">
+                      <input class="tabs__plate-price" type="text">
+                      <span>₪</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__label">02</div>
+              </div>
+              <div class="tabs__item">
+                <img class="tabs__img" src="./img/icons/icon-calendar.png" alt="">
+                <p class="tabs__text">הדובע תליחת ךיראת</p>
+                <div class="tabs__label">03</div>
+                <input class="calendar datepicker" type="text" id="datepicker">
+              </div>
+              <div class="tabs__item">
+                <img class="tabs__img" src="./img/icons/icon-calendar-2.png" alt="">
+                <p class="tabs__text">תאריך סיום עבודה</p>
+                <div class="tabs__label">04</div>
+                <input class="calendar datepicker" type="text" id="datepicker-2">
+              </div>
+            </div>
+
+            <div class="tabs__content">
+              <div class="rotate-wrap">
+                <div class="rotate">
+                  <div class="tabs__item">
+                    <img class="tabs__img" src="./img/icons/icon-hand.png" alt="">
+                    <p class="tabs__text">סוג הכנסה משכורת/ גימלה</p>
+                  </div>
+                  <div class="tabs__plate">
+                    <label for="">
+                      <input type="checkbox" name="" id="">
+                      <span>תרוכשמ</span>
+                    </label>
+                    <label for="">
+                      <input type="checkbox" name="" id="">
+                      <span>הלמג</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="tabs__label">01</div>
+              </div>
+              <div class="rotate-wrap">
+                <div class="rotate">
+                  <div class="tabs__item">
+                    <img class="tabs__img" src="./img/icons/icon-ring.png" alt="">
+                    <p class="tabs__text">ברוטו ממוצע לצורך מס לחודש </p>
+                  </div>
+                  <div class="tabs__plate">
+                    <p class="tabs__plate-text"> רכש ינותנ סנכהשדוחב עצוממ וטורב</p>
+                    <div class="tabs__plate-wrap">
+                      <input class="tabs__plate-price" type="text">
+                      <span>₪</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__label">02</div>
+              </div>
+              <div class="tabs__item">
+                <img class="tabs__img" src="./img/icons/icon-calendar.png" alt="">
+                <p class="tabs__text">הדובע תליחת ךיראת</p>
+                <div class="tabs__label">03</div>
+                <input class="calendar datepicker" type="text" id="datepicker">
+              </div>
+              <div class="tabs__item">
+                <img class="tabs__img" src="./img/icons/icon-calendar-2.png" alt="">
+                <p class="tabs__text">תאריך סיום עבודה</p>
+                <div class="tabs__label">04</div>
+                <input class="calendar datepicker" type="text" id="datepicker-2">
+              </div>
+            </div>
+
+            <div class="tabs__content">
+              <div class="rotate-wrap">
+                <div class="rotate">
+                  <div class="tabs__item">
+                    <img class="tabs__img" src="./img/icons/icon-hand.png" alt="">
+                    <p class="tabs__text">סוג הכנסה משכורת/ גימלה</p>
+                  </div>
+                  <div class="tabs__plate">
+                    <label for="">
+                      <input type="checkbox" name="" id="">
+                      <span>תרוכשמ</span>
+                    </label>
+                    <label for="">
+                      <input type="checkbox" name="" id="">
+                      <span>הלמג</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="tabs__label">01</div>
+              </div>
+              <div class="rotate-wrap">
+                <div class="rotate">
+                  <div class="tabs__item">
+                    <img class="tabs__img" src="./img/icons/icon-ring.png" alt="">
+                    <p class="tabs__text">ברוטו ממוצע לצורך מס לחודש </p>
+                  </div>
+                  <div class="tabs__plate">
+                    <p class="tabs__plate-text"> רכש ינותנ סנכהשדוחב עצוממ וטורב</p>
+                    <div class="tabs__plate-wrap">
+                      <input class="tabs__plate-price" type="text">
+                      <span>₪</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__label">02</div>
+              </div>
+              <div class="tabs__item">
+                <img class="tabs__img" src="./img/icons/icon-calendar.png" alt="">
+                <p class="tabs__text">הדובע תליחת ךיראת</p>
+                <div class="tabs__label">03</div>
+                <input class="calendar datepicker" type="text" id="datepicker">
+              </div>
+              <div class="tabs__item">
+                <img class="tabs__img" src="./img/icons/icon-calendar-2.png" alt="">
+                <p class="tabs__text">תאריך סיום עבודה</p>
+                <div class="tabs__label">04</div>
+                <input class="calendar datepicker" type="text" id="datepicker-2">
+              </div>
+            </div>
+            <div class="tabs__content">
+              <div class="rotate-wrap">
+                <div class="rotate">
+                  <div class="tabs__item">
+                    <img class="tabs__img" src="./img/icons/icon-hand.png" alt="">
+                    <p class="tabs__text">סוג הכנסה משכורת/ גימלה</p>
+                  </div>
+                  <div class="tabs__plate">
+                    <label for="">
+                      <input type="checkbox" name="" id="">
+                      <span>תרוכשמ</span>
+                    </label>
+                    <label for="">
+                      <input type="checkbox" name="" id="">
+                      <span>הלמג</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="tabs__label">01</div>
+              </div>
+              <div class="rotate-wrap">
+                <div class="rotate">
+                  <div class="tabs__item">
+                    <img class="tabs__img" src="./img/icons/icon-ring.png" alt="">
+                    <p class="tabs__text">ברוטו ממוצע לצורך מס לחודש </p>
+                  </div>
+                  <div class="tabs__plate">
+                    <p class="tabs__plate-text"> רכש ינותנ סנכהשדוחב עצוממ וטורב</p>
+                    <div class="tabs__plate-wrap">
+                      <input class="tabs__plate-price" type="text">
+                      <span>₪</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__label">02</div>
+              </div>
+              <div class="tabs__item">
+                <img class="tabs__img" src="./img/icons/icon-calendar.png" alt="">
+                <p class="tabs__text">הדובע תליחת ךיראת</p>
+                <div class="tabs__label">03</div>
+                <input class="calendar datepicker" type="text" id="datepicker">
+              </div>
+              <div class="tabs__item">
+                <img class="tabs__img" src="./img/icons/icon-calendar-2.png" alt="">
+                <p class="tabs__text">תאריך סיום עבודה</p>
+                <div class="tabs__label">04</div>
+                <input class="calendar datepicker" type="text" id="datepicker-2">
+              </div>
+            </div>
+            <div class="tabs__content">
+              <div class="rotate-wrap">
+                <div class="rotate">
+                  <div class="tabs__item">
+                    <img class="tabs__img" src="./img/icons/icon-hand.png" alt="">
+                    <p class="tabs__text">סוג הכנסה משכורת/ גימלה</p>
+                  </div>
+                  <div class="tabs__plate">
+                    <label for="">
+                      <input type="checkbox" name="" id="">
+                      <span>תרוכשמ</span>
+                    </label>
+                    <label for="">
+                      <input type="checkbox" name="" id="">
+                      <span>הלמג</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="tabs__label">01</div>
+              </div>
+              <div class="rotate-wrap">
+                <div class="rotate">
+                  <div class="tabs__item">
+                    <img class="tabs__img" src="./img/icons/icon-ring.png" alt="">
+                    <p class="tabs__text">ברוטו ממוצע לצורך מס לחודש </p>
+                  </div>
+                  <div class="tabs__plate">
+                    <p class="tabs__plate-text"> רכש ינותנ סנכהשדוחב עצוממ וטורב</p>
+                    <div class="tabs__plate-wrap">
+                      <input class="tabs__plate-price" type="text">
+                      <span>₪</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__label">02</div>
+              </div>
+              <div class="tabs__item">
+                <img class="tabs__img" src="./img/icons/icon-calendar.png" alt="">
+                <p class="tabs__text">הדובע תליחת ךיראת</p>
+                <div class="tabs__label">03</div>
+                <input class="calendar datepicker" type="text" id="datepicker">
+              </div>
+              <div class="tabs__item">
+                <img class="tabs__img" src="./img/icons/icon-calendar-2.png" alt="">
+                <p class="tabs__text">תאריך סיום עבודה</p>
+                <div class="tabs__label">04</div>
+                <input class="calendar datepicker" type="text" id="datepicker-2">
+              </div>
+            </div>
+            
+            <button class="tabs__main-btn">למעבר למילוי פרטי מעסיק נוסף - לחץ כאן</button>
+          </section>
+        </div>
+        <section class="form-wrap">
+          <div class="form__content">
+            <div class="form__label">05</div>
+            <h3 class="form__title">מלא את פרטיך ולחץ על סיום תחשיב</h3>
+            <h4 class="form__sub-title">פרטים אישיים:</h4>
+            <form class="form" action="">
+              <label class="form__wrap-item" for="">
+                <input class="form__item" type="text" placeholder="שם">
+              </label>
+              <label class="form__wrap-item" for="">
+                <input class="form__item" type="text" placeholder="טלפון נייד">
+              </label>
+              <label class="form__wrap-item" for="">
+                <input class="form__item" type="text" placeholder="אימייל">
+              </label>
+              <div class="form__wrap-w-50">
+                <label class="form__wrap-item form__wrap-item_w-50" for="">
+                  <input class="form__item" type="text" placeholder="תאריך לידה">
+                </label>
+                <select class="form__select" name="" id="">
+                  <option value="">מצב משפחתי</option>
+                  <option value="">מצב משפחתי</option>
+                  <option value="">מצב משפחתי</option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </section>
+        <section class="visible-table">
+          <div class="visible-table__wrap-content">
+            <div class="visible-table__btn">לסיום התחשיב - לחץ כאן</div>
+            <p class="visible-table__sub-title">בלחיצה על ״סיום התחשיב״ אני מסכים לתנאי השימוש באתר</p>
+          </div>
+        </section>
+        <section class="table__wrap">
+          <div class="wrap-content">
+            <div class="table__label">
+              <span>מעסיק 2 - משני</span>
+            </div>
+            <ul class="table__content">
+              <li class="table__item">
+                <span>סוג</span>
+                <span>הכנסה</span>
+              </li>
+              <li class="table__item">
+                <span>סוג</span>
+                <span>מעסיק</span>
+              </li>
+              <li class="table__item">
+                <span>ברוטו</span>
+                <span>לצורך מס</span>
+                <span>לחודש</span>
+              </li>
+              <li class="table__item">
+                <span>תחילת</span>
+                <span>תאריך</span>
+                <span>עבודה</span>
+              </li>
+              <li class="table__item">
+                <span>סיום</span>
+                <span>תאריך</span>
+                <span>עבודה</span>
+              </li>
+              <li class="table__item">
+                <span>מס</span>
+                <span>חודשי</span>
+                <span>עבודה</span>
+              </li>
+              <li class="table__item">
+                <span>סה"כ</span>
+                <span>חודשי</span>
+                <span>עבודה</span>
+              </li>
+              <li class="table__item">
+                <span>שיעורי</span>
+                <span>ניכוי</span>
+                <span>המס</span>
+              </li>
+            </ul>
+            <ul class="table__content">
+              <li class="table__item">
+                <span></span>
+              </li>
+              <li class="table__item">
+                <span></span>
+              </li>
+              <li class="table__item">
+                <span></span>
+              </li>
+              <li class="table__item">
+                <span></span>
+              </li>
+              <li class="table__item">
+                <span></span>
+              </li>
+              <li class="table__item">
+                <span></span>
+              </li>
+              <li class="table__item">
+                <span></span>
+              </li>
+              <li class="table__item">
+                <span></span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+  
+      <!------CONTENT END------>
+  
+      <!--FOOTER START -->
+  
+      <footer class="footer">
+        <div class="footer__wrap-logo">
+          <img class="footer__logo" src="./img/logo-in-footer.png" alt="">
+        </div>
+        <p class="footer__text">שנקר 14 הרצליה פיתוח ת.ד 12245 | 1-800-200-248 | פקס: 09-9548422</p>
+          <p class="footer__text">
+            www.ilan-y.com | info@ ilanyefet.net
+          </p>
+      </footer>
+    </div>
+
+    <!-----FOOTER END------>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-migrate-3.3.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/custom.js"></script>
+  </body>
+</html>
